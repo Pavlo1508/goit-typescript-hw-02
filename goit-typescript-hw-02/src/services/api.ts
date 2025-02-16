@@ -26,11 +26,13 @@ export const fetchImages = async ({
     const response = await axios.get<{ results: FetchImagesResponse }>(
       "https://api.unsplash.com/search/photos",
       {
+        headers: {
+          Authorization: `Client-ID ${ACCESS_KEY}`,
+        },
         params: {
           query: searchQuery,
           page: page,
           per_page: 10,
-          client_id: ACCESS_KEY,
         },
       }
     );

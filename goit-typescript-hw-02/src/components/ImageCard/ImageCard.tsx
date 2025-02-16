@@ -1,4 +1,4 @@
-import s from "./ErrorMessage.module.css";
+import s from "./ImageCard.module.css";
 import { FC } from "react";
 
 type ImageCardProps = {

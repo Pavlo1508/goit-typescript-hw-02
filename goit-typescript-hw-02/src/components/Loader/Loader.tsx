@@ -1,5 +1,5 @@
 import ReactModal from "react-modal";
-import s from "./ImageModal.module.css";
+import s from "./Loader.module.css";
 import { FC } from "react";
 
 type ModalData = {
