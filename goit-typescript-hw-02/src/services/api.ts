@@ -33,6 +33,7 @@ export const fetchImages = async ({
           query: searchQuery,
           page: page,
           per_page: 10,
+          click_id: ACCESS_KEY,
         },
       }
     );
