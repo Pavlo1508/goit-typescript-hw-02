@@ -1,0 +1,15 @@
+.img {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  box-shadow: 0 0 5px black;
+  transition: box-shadow 0.3s ease;
+	cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 10px black;
+  }
+}

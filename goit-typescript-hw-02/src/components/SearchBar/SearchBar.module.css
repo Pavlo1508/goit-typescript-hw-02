@@ -1,0 +1,35 @@
+.header {
+	width: 100vw;
+	background-color: blue;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 5px 10px black;
+	margin-bottom: 20px;
+	border-radius: 0px 0 10px 10px;
+
+	& .input {
+		font-size: 24px;
+		padding: 10px;
+		margin-right: 10px;
+		border-radius: 10px;
+
+		&:hover {
+			box-shadow: 0 0 10px black;
+		}
+	}
+
+	& .btn {
+		font-size: 24px;
+		font-weight: bold;
+		padding: 10px;
+		border-radius: 10px;
+		background-color: white;
+		border: none;
+		box-shadow: 0 0 5px gray;
+		
+		&:hover {
+			box-shadow: 0 0 10px black;
+		}
+	}
+}
