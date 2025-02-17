@@ -1,12 +1,12 @@
 import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
 import { useState } from "react";
-import fetchImages from "./services/api";
-import SearchBar from "./components/SearchBar/SearchBar";
-import ImageGallery from "./components/ImageGallery/ImageGallery";
-import { Loader } from "./components/Loader/Loader";
-import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
-import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
-import ImageModal from "./components/ImageModal/ImageModal";
+import fetchImages from "../../services/api";
+import SearchBar from "../SearchBar/SearchBar";
+import ImageGallery from "../ImageGallery/ImageGallery";
+import { Loader } from "../Loader/Loader";
+import LoadMoreBtn from "../LoadMoreBtn/LoadMoreBtn";
+import ErrorMessage from "../ErrorMessage/ErrorMessage";
+import ImageModal from "../ImageModal/ImageModal";
 function App() {
     const [images, setImages] = useState([]);
     const [searchQuery, setSearchQuery] = useState("");
